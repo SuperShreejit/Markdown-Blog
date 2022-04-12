@@ -1,0 +1,32 @@
+.btn{
+  text-decoration: none;
+  display: inline;
+  width: max-content;
+  color: var(--btn-text-color);
+  cursor: pointer;
+  padding: .5em 1em;
+  border-radius: .5em;
+  transition: backgound 100ms ease-in-out;
+}
+
+.btn-primary{
+  background-color: var(--btn-primary-bg-color);
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: var(--btn-primary-bg-color-hover);
+}
+.btn-secondary{
+  background-color: var(--btn-secondary-bg-color);
+}
+.btn-secondary:hover,
+.btn-secondary:focus{
+  background-color: var(--btn-secondary-bg-color-hover);
+}
+.btn-danger{
+  background-color: var(--btn-danger-bg-color);
+}
+.btn-danger:hover,
+.btn-danger:focus{
+  background-color: var(--btn-danger-bg-color-hover);
+}

@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+:root{
+  --body-bg-color: aliceblue;
+  --primary-text-color: #333;
+  --error-text-color: red;
+  --secondary-text-color: #666;
+  --btn-text-color: #fff;
+  --btn-primary-bg-color: green;
+  --btn-primary-bg-color-hover: darkgreen;
+  --btn-secondary-bg-color: seagreen;
+  --btn-secondary-bg-color-hover: darkseagreen;
+  --btn-danger-bg-color:maroon;
+  --btn-danger-bg-color-hover: red;
+  --border-color:#444;
+}

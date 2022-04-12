@@ -1,0 +1,29 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.input-group{
+  display: flex;
+  gap:1em;
+}
+
+.label{
+  color: var(--primary-text-color);
+  font-size: medium;
+}
+
+.input{
+  color: var(--primary-text-color);
+  font-size: medium;
+  padding: .5em 1em;
+  outline: none;
+  border-radius: .5em;
+  border-color: var(--border-color);
+}
+
+.message{
+  color: var(--error-text-color);
+}
